@@ -1,5 +1,4 @@
-# Caza del Tesoro 
-<img src="https://raw.githubusercontent.com/HenzeI/Caza_del_Tesoro-HF/refs/heads/main/img/cofreCerrado.png" height=60px>
+<h1>Caza del Tesoro</h1><img src="https://raw.githubusercontent.com/HenzeI/Caza_del_Tesoro-HF/refs/heads/main/img/cofreCerrado.png" height=60px>
 
 Este programa es un minijuego de mesa que consiste en moverte en un tablero utilizando un dado con el objetivo de llegar al tesoro que se encuentra al otro lado del tablero.
 
