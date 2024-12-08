@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4249aa;
+}
+
+#mainContenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    margin: 0; 
+}
+
+.contenidoForm {
+    justify-items: center;
+    text-align: center;
+    float: right;
+    flex: 1;
+    color: #D5B386;
+}
+
+.contenidoForm #nombre {
+    height: 25px;
+    border-radius: 5px;
+}
+
+.contenidoForm #btnNombre {
+    height: 30px;
+    border: solid 1px #D5B386;
+    background-color: #D5B386;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contenidoForm #btnNombre:hover {
+    height: 30px;
+    border: solid 1px #ffdaaa;
+    background-color: #ffdaaa;
+    border-radius: 5px;
+}
+
+.contenidoForm #jugar {
+    height: 30px;
+    width: 100px;
+    border: solid 1px #D5B386;
+    background-color: #D5B386;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contenidoForm #jugar:hover {
+    height: 30px;
+    border: solid 1px #66cd40;
+    background-color: #66cd40;
+    border-radius: 5px;
+}
+
+#aLuchar {
+    color: #D5B386;
+}
+
+.contenido {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+}
+
+.divDado {
+    display: grid;
+    justify-content: space-between;
+    padding-top: 40%;
+}
+
+.divDado button {
+    height: 45px;
+    border: solid 1px #D5B386;
+    background-color: #D5B386;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.divDado button:hover {
+    border: solid 1px #ffdaaa;
+    background-color: #ffdaaa;
+    cursor: pointer;
+}
+
+input.invalid {
+    border-color: rgb(255, 48, 48);
+}
+
+table {
+    padding: 5%;
+    background-image: url(./img/mapa.jpg);
+    background-color: rgb(75, 144, 213);
+    background-size: cover;
+    background-position: center;
+    border: solid 5px rgb(31, 40, 139);
+}
+
+table td {
+    padding: 1%;
+    border: none;
+}
+
+table button {
+    background-image: url(./img/movimiento.png);
+    background-color: transparent;
+    border: none;
+    padding: 1px 10px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    color: rgba(239, 239, 239, 0.167);
+}
+
+table button:hover {
+    transform: scale(1.5);
+}
+
+table button:disabled {
+    background-image: none;
+    border: none;
+    padding: 1px 10px;
+    cursor: auto;
+    transform: none;
+}
+
+button.barco {
+    position: relative;
+    background-image: url(./img/barco.jpg);
+    border: none;
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+button.barco:hover{
+    transform: none;
+}
+
+button.tesoro {
+    position: relative;
+    background-image: url(./img/cofreCerrado.png);
+    border: none;
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    transform: none;
+}
+
+button.tesoroObtenido {
+    position: relative;
+    background-image: url(./img/cofreAbierto.png);
+    border: none;
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+}
