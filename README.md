@@ -29,3 +29,5 @@ Funciones de flujo del programa
 Función de comprobación de nombre
 
 - validarNombre(nombre) - Pide por parámetro el nombre a comprobar y devuelve un mensaje en función de las restricciones que se han incumplido en el nombre.
+
+<img src="https://raw.githubusercontent.com/HenzeI/Caza_del_Tesoro-HF/refs/heads/main/img/cofreCerrado.png" height=30px>
