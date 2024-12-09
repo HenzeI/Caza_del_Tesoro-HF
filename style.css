@@ -123,6 +123,7 @@ table button:disabled {
     padding: 1px 10px;
     cursor: auto;
     transform: none;
+    user-select: none;
 }
 
 button.barco {
@@ -132,7 +133,7 @@ button.barco {
     background-color: transparent;
     background-size: cover;
     background-position: center;
-    
+    user-select: none;
 }
 
 button.barco:hover{
@@ -147,6 +148,7 @@ button.tesoro {
     background-size: cover;
     background-position: center;
     transform: none;
+    user-select: none;
 }
 
 button.tesoroObtenido {
@@ -156,4 +158,5 @@ button.tesoroObtenido {
     background-color: transparent;
     background-size: cover;
     background-position: center;
+    user-select: none;
 }
